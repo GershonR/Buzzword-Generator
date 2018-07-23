@@ -1,9 +1,8 @@
 #!/usr/bin/env python
 import cgi
-import cgitb
-cgitb.enable()
 import sys
 import logging
+import subprocess
 
 
 logging.basicConfig(filename='error.log',level=logging.DEBUG)
@@ -12,8 +11,10 @@ try:
     form = cgi.FieldStorage()
     info = form.getvalue("method")
     if(info == 'pull'):
-       info = "METHOD IS NOW PULL"
-    logging.info("METHOD: " + str(info))
+       info = "PULLING FROM MASTER.."
+       process = subprocess.Popen(["git", "pull"], stdout=subprocess.PIPE)
+       output = process.communicate()[0]
+       logging.info("Pulled from master: " + str(output))
 except Exception as e:
 	logging.info("POST ERROR: " + str(e))
 
