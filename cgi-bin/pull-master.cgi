@@ -7,6 +7,7 @@ import subprocess
 
 logging.basicConfig(filename='error.log',level=logging.DEBUG)
 info = ""
+output = ""
 try:
     form = cgi.FieldStorage()
     info = form.getvalue("method")
@@ -16,8 +17,12 @@ try:
        git = cmd.communicate()[0]
        logging.info("Status: " + str(git))
        process = subprocess.Popen(["git", "fetch", "--all"], stdout=subprocess.PIPE)
-       process = subprocess.Popen(["git", "reset", "--hard", "origin/master"], stdout=subprocess.PIPE)
-       process = subprocess.Popen(["git", "pull", "origin", "master"], stdout=subprocess.PIPE)
+       output = process.communicate()[0]
+       logging.info("Fetched: " + str(output))
+       process = subprocess.Popen(["git", "reset --hard origin/master"], stdout=subprocess.PIPE)
+       output = process.communicate()[0]
+       logging.info("Reset: " + str(output))
+       process = subprocess.Popen(["git", "pull"], stdout=subprocess.PIPE)
        output = process.communicate()[0]
        logging.info("Pulled from master: " + str(output))
 except Exception as e:
