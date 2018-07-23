@@ -19,7 +19,7 @@ try:
        process = subprocess.Popen(["git", "fetch", "--all"], stdout=subprocess.PIPE)
        output = process.communicate()[0]
        logging.info("Fetched: " + str(output))
-       process = subprocess.Popen(["git", "reset --hard origin/master"], stdout=subprocess.PIPE)
+       process = subprocess.Popen(["git", "reset", "--hard",  "origin/master"], stdout=subprocess.PIPE)
        output = process.communicate()[0]
        logging.info("Reset: " + str(output))
        process = subprocess.Popen(["git", "pull"], stdout=subprocess.PIPE)

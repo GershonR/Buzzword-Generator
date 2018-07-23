@@ -1,0 +1,396 @@
+[Mon Jul 23 15:21:19.168294 2018] [ssl:warn] [pid 7810] AH01906: www.gersh.in:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Jul 23 15:21:19.168385 2018] [ssl:warn] [pid 7810] AH01909: www.gersh.in:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jul 23 15:21:19.246280 2018] [ssl:warn] [pid 7811] AH01906: www.gersh.in:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Jul 23 15:21:19.246319 2018] [ssl:warn] [pid 7811] AH01909: www.gersh.in:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jul 23 15:21:24.138230 2018] [cgi:error] [pid 7817] [client 162.243.33.6:48416] malformed header from script 'pull-master.cgi': Bad header: meme.cgi
+[Mon Jul 23 15:24:10.217993 2018] [http:error] [pid 7945] [client 162.243.33.6:48954] AH02429: Response header name '<!--' contains invalid characters, aborting request
+[Mon Jul 23 15:24:10.940282 2018] [http:error] [pid 7814] [client 162.243.33.6:48959] AH02429: Response header name '<!--' contains invalid characters, aborting request
+[Mon Jul 23 15:25:19.495361 2018] [http:error] [pid 7945] [client 162.243.33.6:49197] AH02429: Response header name '<!--' contains invalid characters, aborting request
+[Mon Jul 23 15:26:27.987891 2018] [cgi:error] [pid 7817] [client 162.243.33.6:49540] AH01215: Traceback (most recent call last):
+[Mon Jul 23 15:26:27.988020 2018] [cgi:error] [pid 7817] [client 162.243.33.6:49540] AH01215:   File "/home/website/buzzwords/cgi-bin/pull-master.cgi", line 7, in <module>
+[Mon Jul 23 15:26:27.988065 2018] [cgi:error] [pid 7817] [client 162.243.33.6:49540] AH01215:     
+[Mon Jul 23 15:26:27.988131 2018] [cgi:error] [pid 7817] [client 162.243.33.6:49540] AH01215: logging.basicConfig(filename='error.log',level=logging.DEBUG)
+[Mon Jul 23 15:26:27.988213 2018] [cgi:error] [pid 7817] [client 162.243.33.6:49540] AH01215:   File "/usr/lib/python2.7/logging/__init__.py", line 1540, in basicConfig
+[Mon Jul 23 15:26:27.988492 2018] [cgi:error] [pid 7817] [client 162.243.33.6:49540] AH01215:     
+[Mon Jul 23 15:26:27.988536 2018] [cgi:error] [pid 7817] [client 162.243.33.6:49540] AH01215: hdlr = FileHandler(filename, mode)
+[Mon Jul 23 15:26:27.988613 2018] [cgi:error] [pid 7817] [client 162.243.33.6:49540] AH01215:   File "/usr/lib/python2.7/logging/__init__.py", line 911, in __init__
+[Mon Jul 23 15:26:27.988786 2018] [cgi:error] [pid 7817] [client 162.243.33.6:49540] AH01215:     
+[Mon Jul 23 15:26:27.988834 2018] [cgi:error] [pid 7817] [client 162.243.33.6:49540] AH01215: StreamHandler.__init__(self, self._open())
+[Mon Jul 23 15:26:27.988910 2018] [cgi:error] [pid 7817] [client 162.243.33.6:49540] AH01215:   File "/usr/lib/python2.7/logging/__init__.py", line 936, in _open
+[Mon Jul 23 15:26:27.989138 2018] [cgi:error] [pid 7817] [client 162.243.33.6:49540] AH01215:     
+[Mon Jul 23 15:26:27.989192 2018] [cgi:error] [pid 7817] [client 162.243.33.6:49540] AH01215: stream = open(self.baseFilename, self.mode)
+[Mon Jul 23 15:26:27.989235 2018] [cgi:error] [pid 7817] [client 162.243.33.6:49540] AH01215: IOError
+[Mon Jul 23 15:26:27.989271 2018] [cgi:error] [pid 7817] [client 162.243.33.6:49540] AH01215: : 
+[Mon Jul 23 15:26:27.989344 2018] [cgi:error] [pid 7817] [client 162.243.33.6:49540] AH01215: [Errno 13] Permission denied: '/home/website/buzzwords/cgi-bin/error.log'
+[Mon Jul 23 15:26:27.989363 2018] [cgi:error] [pid 7817] [client 162.243.33.6:49540] AH01215: 
+[Mon Jul 23 15:26:27.992266 2018] [cgi:error] [pid 7817] [client 162.243.33.6:49540] End of script output before headers: pull-master.cgi
+[Mon Jul 23 15:31:34.850561 2018] [cgi:error] [pid 7817] [client 162.243.33.6:50537] AH01215:   File "
+[Mon Jul 23 15:31:34.850657 2018] [cgi:error] [pid 7817] [client 162.243.33.6:50537] AH01215: /home/website/buzzwords/cgi-bin/pull-master.cgi
+[Mon Jul 23 15:31:34.850681 2018] [cgi:error] [pid 7817] [client 162.243.33.6:50537] AH01215: ", line 
+[Mon Jul 23 15:31:34.850703 2018] [cgi:error] [pid 7817] [client 162.243.33.6:50537] AH01215: 11
+[Mon Jul 23 15:31:34.850720 2018] [cgi:error] [pid 7817] [client 162.243.33.6:50537] AH01215: 
+[Mon Jul 23 15:31:34.850753 2018] [cgi:error] [pid 7817] [client 162.243.33.6:50537] AH01215:     
+[Mon Jul 23 15:31:34.850789 2018] [cgi:error] [pid 7817] [client 162.243.33.6:50537] AH01215: info = form['method'].value
+[Mon Jul 23 15:31:34.850808 2018] [cgi:error] [pid 7817] [client 162.243.33.6:50537] AH01215:     
+[Mon Jul 23 15:31:34.850825 2018] [cgi:error] [pid 7817] [client 162.243.33.6:50537] AH01215:  
+[Mon Jul 23 15:31:34.850843 2018] [cgi:error] [pid 7817] [client 162.243.33.6:50537] AH01215:  
+[Mon Jul 23 15:31:34.850860 2018] [cgi:error] [pid 7817] [client 162.243.33.6:50537] AH01215:  
+[Mon Jul 23 15:31:34.850877 2018] [cgi:error] [pid 7817] [client 162.243.33.6:50537] AH01215:  
+[Mon Jul 23 15:31:34.850894 2018] [cgi:error] [pid 7817] [client 162.243.33.6:50537] AH01215:  
+[Mon Jul 23 15:31:34.850911 2018] [cgi:error] [pid 7817] [client 162.243.33.6:50537] AH01215:  
+[Mon Jul 23 15:31:34.850928 2018] [cgi:error] [pid 7817] [client 162.243.33.6:50537] AH01215:  
+[Mon Jul 23 15:31:34.850946 2018] [cgi:error] [pid 7817] [client 162.243.33.6:50537] AH01215:  
+[Mon Jul 23 15:31:34.850963 2018] [cgi:error] [pid 7817] [client 162.243.33.6:50537] AH01215:  
+[Mon Jul 23 15:31:34.850980 2018] [cgi:error] [pid 7817] [client 162.243.33.6:50537] AH01215:  
+[Mon Jul 23 15:31:34.850997 2018] [cgi:error] [pid 7817] [client 162.243.33.6:50537] AH01215:  
+[Mon Jul 23 15:31:34.851014 2018] [cgi:error] [pid 7817] [client 162.243.33.6:50537] AH01215:  
+[Mon Jul 23 15:31:34.851031 2018] [cgi:error] [pid 7817] [client 162.243.33.6:50537] AH01215:  
+[Mon Jul 23 15:31:34.851047 2018] [cgi:error] [pid 7817] [client 162.243.33.6:50537] AH01215:  
+[Mon Jul 23 15:31:34.851064 2018] [cgi:error] [pid 7817] [client 162.243.33.6:50537] AH01215:  
+[Mon Jul 23 15:31:34.851081 2018] [cgi:error] [pid 7817] [client 162.243.33.6:50537] AH01215:  
+[Mon Jul 23 15:31:34.851098 2018] [cgi:error] [pid 7817] [client 162.243.33.6:50537] AH01215:  
+[Mon Jul 23 15:31:34.851115 2018] [cgi:error] [pid 7817] [client 162.243.33.6:50537] AH01215:  
+[Mon Jul 23 15:31:34.851132 2018] [cgi:error] [pid 7817] [client 162.243.33.6:50537] AH01215:  
+[Mon Jul 23 15:31:34.851149 2018] [cgi:error] [pid 7817] [client 162.243.33.6:50537] AH01215:  
+[Mon Jul 23 15:31:34.851166 2018] [cgi:error] [pid 7817] [client 162.243.33.6:50537] AH01215:  
+[Mon Jul 23 15:31:34.851183 2018] [cgi:error] [pid 7817] [client 162.243.33.6:50537] AH01215:  
+[Mon Jul 23 15:31:34.851200 2018] [cgi:error] [pid 7817] [client 162.243.33.6:50537] AH01215:  
+[Mon Jul 23 15:31:34.851217 2018] [cgi:error] [pid 7817] [client 162.243.33.6:50537] AH01215:  
+[Mon Jul 23 15:31:34.851234 2018] [cgi:error] [pid 7817] [client 162.243.33.6:50537] AH01215:  
+[Mon Jul 23 15:31:34.851251 2018] [cgi:error] [pid 7817] [client 162.243.33.6:50537] AH01215:  
+[Mon Jul 23 15:31:34.851268 2018] [cgi:error] [pid 7817] [client 162.243.33.6:50537] AH01215: ^
+[Mon Jul 23 15:31:34.851300 2018] [cgi:error] [pid 7817] [client 162.243.33.6:50537] AH01215: IndentationError
+[Mon Jul 23 15:31:34.851319 2018] [cgi:error] [pid 7817] [client 162.243.33.6:50537] AH01215: : 
+[Mon Jul 23 15:31:34.851375 2018] [cgi:error] [pid 7817] [client 162.243.33.6:50537] AH01215: unindent does not match any outer indentation level
+[Mon Jul 23 15:31:34.851393 2018] [cgi:error] [pid 7817] [client 162.243.33.6:50537] AH01215: 
+[Mon Jul 23 15:31:34.853354 2018] [cgi:error] [pid 7817] [client 162.243.33.6:50537] End of script output before headers: pull-master.cgi
+[Mon Jul 23 15:31:35.307703 2018] [cgi:error] [pid 7814] [client 162.243.33.6:50539] AH01215:   File "
+[Mon Jul 23 15:31:35.307832 2018] [cgi:error] [pid 7814] [client 162.243.33.6:50539] AH01215: /home/website/buzzwords/cgi-bin/pull-master.cgi
+[Mon Jul 23 15:31:35.307865 2018] [cgi:error] [pid 7814] [client 162.243.33.6:50539] AH01215: ", line 
+[Mon Jul 23 15:31:35.307893 2018] [cgi:error] [pid 7814] [client 162.243.33.6:50539] AH01215: 11
+[Mon Jul 23 15:31:35.307911 2018] [cgi:error] [pid 7814] [client 162.243.33.6:50539] AH01215: 
+[Mon Jul 23 15:31:35.307945 2018] [cgi:error] [pid 7814] [client 162.243.33.6:50539] AH01215:     
+[Mon Jul 23 15:31:35.307980 2018] [cgi:error] [pid 7814] [client 162.243.33.6:50539] AH01215: info = form['method'].value
+[Mon Jul 23 15:31:35.307999 2018] [cgi:error] [pid 7814] [client 162.243.33.6:50539] AH01215:     
+[Mon Jul 23 15:31:35.308016 2018] [cgi:error] [pid 7814] [client 162.243.33.6:50539] AH01215:  
+[Mon Jul 23 15:31:35.308033 2018] [cgi:error] [pid 7814] [client 162.243.33.6:50539] AH01215:  
+[Mon Jul 23 15:31:35.308050 2018] [cgi:error] [pid 7814] [client 162.243.33.6:50539] AH01215:  
+[Mon Jul 23 15:31:35.308067 2018] [cgi:error] [pid 7814] [client 162.243.33.6:50539] AH01215:  
+[Mon Jul 23 15:31:35.308084 2018] [cgi:error] [pid 7814] [client 162.243.33.6:50539] AH01215:  
+[Mon Jul 23 15:31:35.308101 2018] [cgi:error] [pid 7814] [client 162.243.33.6:50539] AH01215:  
+[Mon Jul 23 15:31:35.308118 2018] [cgi:error] [pid 7814] [client 162.243.33.6:50539] AH01215:  
+[Mon Jul 23 15:31:35.308135 2018] [cgi:error] [pid 7814] [client 162.243.33.6:50539] AH01215:  
+[Mon Jul 23 15:31:35.308152 2018] [cgi:error] [pid 7814] [client 162.243.33.6:50539] AH01215:  
+[Mon Jul 23 15:31:35.308169 2018] [cgi:error] [pid 7814] [client 162.243.33.6:50539] AH01215:  
+[Mon Jul 23 15:31:35.308186 2018] [cgi:error] [pid 7814] [client 162.243.33.6:50539] AH01215:  
+[Mon Jul 23 15:31:35.308203 2018] [cgi:error] [pid 7814] [client 162.243.33.6:50539] AH01215:  
+[Mon Jul 23 15:31:35.308220 2018] [cgi:error] [pid 7814] [client 162.243.33.6:50539] AH01215:  
+[Mon Jul 23 15:31:35.308236 2018] [cgi:error] [pid 7814] [client 162.243.33.6:50539] AH01215:  
+[Mon Jul 23 15:31:35.308293 2018] [cgi:error] [pid 7814] [client 162.243.33.6:50539] AH01215:  
+[Mon Jul 23 15:31:35.308314 2018] [cgi:error] [pid 7814] [client 162.243.33.6:50539] AH01215:  
+[Mon Jul 23 15:31:35.308331 2018] [cgi:error] [pid 7814] [client 162.243.33.6:50539] AH01215:  
+[Mon Jul 23 15:31:35.308348 2018] [cgi:error] [pid 7814] [client 162.243.33.6:50539] AH01215:  
+[Mon Jul 23 15:31:35.308365 2018] [cgi:error] [pid 7814] [client 162.243.33.6:50539] AH01215:  
+[Mon Jul 23 15:31:35.308382 2018] [cgi:error] [pid 7814] [client 162.243.33.6:50539] AH01215:  
+[Mon Jul 23 15:31:35.308399 2018] [cgi:error] [pid 7814] [client 162.243.33.6:50539] AH01215:  
+[Mon Jul 23 15:31:35.308416 2018] [cgi:error] [pid 7814] [client 162.243.33.6:50539] AH01215:  
+[Mon Jul 23 15:31:35.308433 2018] [cgi:error] [pid 7814] [client 162.243.33.6:50539] AH01215:  
+[Mon Jul 23 15:31:35.308450 2018] [cgi:error] [pid 7814] [client 162.243.33.6:50539] AH01215:  
+[Mon Jul 23 15:31:35.308467 2018] [cgi:error] [pid 7814] [client 162.243.33.6:50539] AH01215:  
+[Mon Jul 23 15:31:35.308484 2018] [cgi:error] [pid 7814] [client 162.243.33.6:50539] AH01215:  
+[Mon Jul 23 15:31:35.308501 2018] [cgi:error] [pid 7814] [client 162.243.33.6:50539] AH01215: ^
+[Mon Jul 23 15:31:35.308532 2018] [cgi:error] [pid 7814] [client 162.243.33.6:50539] AH01215: IndentationError
+[Mon Jul 23 15:31:35.308551 2018] [cgi:error] [pid 7814] [client 162.243.33.6:50539] AH01215: : 
+[Mon Jul 23 15:31:35.308605 2018] [cgi:error] [pid 7814] [client 162.243.33.6:50539] AH01215: unindent does not match any outer indentation level
+[Mon Jul 23 15:31:35.308623 2018] [cgi:error] [pid 7814] [client 162.243.33.6:50539] AH01215: 
+[Mon Jul 23 15:31:35.310246 2018] [cgi:error] [pid 7814] [client 162.243.33.6:50539] End of script output before headers: pull-master.cgi
+[Mon Jul 23 15:46:08.735204 2018] [cgi:error] [pid 7816] [client 162.243.33.6:53557] AH01215:   File ", referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:08.735299 2018] [cgi:error] [pid 7816] [client 162.243.33.6:53557] AH01215: /home/website/buzzwords/cgi-bin/pull-master.cgi, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:08.735324 2018] [cgi:error] [pid 7816] [client 162.243.33.6:53557] AH01215: ", line , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:08.735345 2018] [cgi:error] [pid 7816] [client 162.243.33.6:53557] AH01215: 14, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:08.735378 2018] [cgi:error] [pid 7816] [client 162.243.33.6:53557] AH01215: , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:08.735399 2018] [cgi:error] [pid 7816] [client 162.243.33.6:53557] AH01215:     , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:08.735427 2018] [cgi:error] [pid 7816] [client 162.243.33.6:53557] AH01215: if(info == 'pull'), referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:08.735447 2018] [cgi:error] [pid 7816] [client 162.243.33.6:53557] AH01215:     , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:08.735465 2018] [cgi:error] [pid 7816] [client 162.243.33.6:53557] AH01215:  , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:08.735482 2018] [cgi:error] [pid 7816] [client 162.243.33.6:53557] AH01215:  , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:08.735499 2018] [cgi:error] [pid 7816] [client 162.243.33.6:53557] AH01215:  , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:08.735517 2018] [cgi:error] [pid 7816] [client 162.243.33.6:53557] AH01215:  , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:08.735534 2018] [cgi:error] [pid 7816] [client 162.243.33.6:53557] AH01215:  , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:08.735552 2018] [cgi:error] [pid 7816] [client 162.243.33.6:53557] AH01215:  , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:08.735569 2018] [cgi:error] [pid 7816] [client 162.243.33.6:53557] AH01215:  , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:08.735586 2018] [cgi:error] [pid 7816] [client 162.243.33.6:53557] AH01215:  , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:08.735604 2018] [cgi:error] [pid 7816] [client 162.243.33.6:53557] AH01215:  , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:08.735621 2018] [cgi:error] [pid 7816] [client 162.243.33.6:53557] AH01215:  , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:08.735638 2018] [cgi:error] [pid 7816] [client 162.243.33.6:53557] AH01215:  , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:08.735656 2018] [cgi:error] [pid 7816] [client 162.243.33.6:53557] AH01215:  , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:08.735673 2018] [cgi:error] [pid 7816] [client 162.243.33.6:53557] AH01215:  , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:08.735690 2018] [cgi:error] [pid 7816] [client 162.243.33.6:53557] AH01215:  , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:08.735707 2018] [cgi:error] [pid 7816] [client 162.243.33.6:53557] AH01215:  , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:08.735724 2018] [cgi:error] [pid 7816] [client 162.243.33.6:53557] AH01215:  , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:08.735742 2018] [cgi:error] [pid 7816] [client 162.243.33.6:53557] AH01215:  , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:08.735777 2018] [cgi:error] [pid 7816] [client 162.243.33.6:53557] AH01215: ^, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:08.735814 2018] [cgi:error] [pid 7816] [client 162.243.33.6:53557] AH01215: SyntaxError, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:08.735833 2018] [cgi:error] [pid 7816] [client 162.243.33.6:53557] AH01215: : , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:08.735864 2018] [cgi:error] [pid 7816] [client 162.243.33.6:53557] AH01215: invalid syntax, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:08.735882 2018] [cgi:error] [pid 7816] [client 162.243.33.6:53557] AH01215: , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:08.737551 2018] [cgi:error] [pid 7816] [client 162.243.33.6:53557] End of script output before headers: pull-master.cgi, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:11.664870 2018] [cgi:error] [pid 7945] [client 162.243.33.6:53567] AH01215:   File ", referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:11.665037 2018] [cgi:error] [pid 7945] [client 162.243.33.6:53567] AH01215: /home/website/buzzwords/cgi-bin/pull-master.cgi, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:11.665403 2018] [cgi:error] [pid 7945] [client 162.243.33.6:53567] AH01215: ", line 14, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:11.665441 2018] [cgi:error] [pid 7945] [client 162.243.33.6:53567] AH01215:     if(info == 'pull'), referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:11.665461 2018] [cgi:error] [pid 7945] [client 162.243.33.6:53567] AH01215:                      ^, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:11.665484 2018] [cgi:error] [pid 7945] [client 162.243.33.6:53567] AH01215: SyntaxError: invalid syntax, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:11.667120 2018] [cgi:error] [pid 7945] [client 162.243.33.6:53567] End of script output before headers: pull-master.cgi, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:14.771458 2018] [cgi:error] [pid 7815] [client 162.243.33.6:53578] AH01215:   File ", referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:14.771543 2018] [cgi:error] [pid 7815] [client 162.243.33.6:53578] AH01215: /home/website/buzzwords/cgi-bin/pull-master.cgi, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:14.771567 2018] [cgi:error] [pid 7815] [client 162.243.33.6:53578] AH01215: ", line , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:14.771588 2018] [cgi:error] [pid 7815] [client 162.243.33.6:53578] AH01215: 14, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:14.771605 2018] [cgi:error] [pid 7815] [client 162.243.33.6:53578] AH01215: , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:14.771625 2018] [cgi:error] [pid 7815] [client 162.243.33.6:53578] AH01215:     , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:14.771653 2018] [cgi:error] [pid 7815] [client 162.243.33.6:53578] AH01215: if(info == 'pull'), referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:14.771673 2018] [cgi:error] [pid 7815] [client 162.243.33.6:53578] AH01215:     , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:14.771690 2018] [cgi:error] [pid 7815] [client 162.243.33.6:53578] AH01215:  , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:14.771708 2018] [cgi:error] [pid 7815] [client 162.243.33.6:53578] AH01215:  , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:14.771725 2018] [cgi:error] [pid 7815] [client 162.243.33.6:53578] AH01215:  , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:14.771742 2018] [cgi:error] [pid 7815] [client 162.243.33.6:53578] AH01215:  , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:14.771779 2018] [cgi:error] [pid 7815] [client 162.243.33.6:53578] AH01215:  , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:14.771804 2018] [cgi:error] [pid 7815] [client 162.243.33.6:53578] AH01215:  , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:14.771822 2018] [cgi:error] [pid 7815] [client 162.243.33.6:53578] AH01215:  , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:14.771840 2018] [cgi:error] [pid 7815] [client 162.243.33.6:53578] AH01215:  , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:14.771857 2018] [cgi:error] [pid 7815] [client 162.243.33.6:53578] AH01215:  , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:14.771875 2018] [cgi:error] [pid 7815] [client 162.243.33.6:53578] AH01215:  , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:14.771892 2018] [cgi:error] [pid 7815] [client 162.243.33.6:53578] AH01215:  , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:14.771909 2018] [cgi:error] [pid 7815] [client 162.243.33.6:53578] AH01215:  , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:14.771926 2018] [cgi:error] [pid 7815] [client 162.243.33.6:53578] AH01215:  , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:14.771943 2018] [cgi:error] [pid 7815] [client 162.243.33.6:53578] AH01215:  , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:14.771960 2018] [cgi:error] [pid 7815] [client 162.243.33.6:53578] AH01215:  , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:14.771977 2018] [cgi:error] [pid 7815] [client 162.243.33.6:53578] AH01215:  , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:14.772098 2018] [cgi:error] [pid 7815] [client 162.243.33.6:53578] AH01215:  , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:14.772135 2018] [cgi:error] [pid 7815] [client 162.243.33.6:53578] AH01215: ^, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:14.772164 2018] [cgi:error] [pid 7815] [client 162.243.33.6:53578] AH01215: SyntaxError, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:14.772184 2018] [cgi:error] [pid 7815] [client 162.243.33.6:53578] AH01215: : , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:14.772214 2018] [cgi:error] [pid 7815] [client 162.243.33.6:53578] AH01215: invalid syntax, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:14.772232 2018] [cgi:error] [pid 7815] [client 162.243.33.6:53578] AH01215: , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:14.773963 2018] [cgi:error] [pid 7815] [client 162.243.33.6:53578] End of script output before headers: pull-master.cgi, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:17.707172 2018] [cgi:error] [pid 7816] [client 162.243.33.6:53590] AH01215:   File ", referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:17.707259 2018] [cgi:error] [pid 7816] [client 162.243.33.6:53590] AH01215: /home/website/buzzwords/cgi-bin/pull-master.cgi, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:17.707283 2018] [cgi:error] [pid 7816] [client 162.243.33.6:53590] AH01215: ", line , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:17.707304 2018] [cgi:error] [pid 7816] [client 162.243.33.6:53590] AH01215: 14, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:17.707322 2018] [cgi:error] [pid 7816] [client 162.243.33.6:53590] AH01215: , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:17.707342 2018] [cgi:error] [pid 7816] [client 162.243.33.6:53590] AH01215:     , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:17.707371 2018] [cgi:error] [pid 7816] [client 162.243.33.6:53590] AH01215: if(info == 'pull'), referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:17.707391 2018] [cgi:error] [pid 7816] [client 162.243.33.6:53590] AH01215:     , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:17.707409 2018] [cgi:error] [pid 7816] [client 162.243.33.6:53590] AH01215:  , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:17.707426 2018] [cgi:error] [pid 7816] [client 162.243.33.6:53590] AH01215:  , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:17.707444 2018] [cgi:error] [pid 7816] [client 162.243.33.6:53590] AH01215:  , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:17.707461 2018] [cgi:error] [pid 7816] [client 162.243.33.6:53590] AH01215:  , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:17.707479 2018] [cgi:error] [pid 7816] [client 162.243.33.6:53590] AH01215:  , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:17.707496 2018] [cgi:error] [pid 7816] [client 162.243.33.6:53590] AH01215:  , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:17.707514 2018] [cgi:error] [pid 7816] [client 162.243.33.6:53590] AH01215:  , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:17.707531 2018] [cgi:error] [pid 7816] [client 162.243.33.6:53590] AH01215:  , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:17.707549 2018] [cgi:error] [pid 7816] [client 162.243.33.6:53590] AH01215:  , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:17.707566 2018] [cgi:error] [pid 7816] [client 162.243.33.6:53590] AH01215:  , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:17.707584 2018] [cgi:error] [pid 7816] [client 162.243.33.6:53590] AH01215:  , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:17.707601 2018] [cgi:error] [pid 7816] [client 162.243.33.6:53590] AH01215:  , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:17.707619 2018] [cgi:error] [pid 7816] [client 162.243.33.6:53590] AH01215:  , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:17.707636 2018] [cgi:error] [pid 7816] [client 162.243.33.6:53590] AH01215:  , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:17.707653 2018] [cgi:error] [pid 7816] [client 162.243.33.6:53590] AH01215:  , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:17.707692 2018] [cgi:error] [pid 7816] [client 162.243.33.6:53590] AH01215:  , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:17.707744 2018] [cgi:error] [pid 7816] [client 162.243.33.6:53590] AH01215:  , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:17.707793 2018] [cgi:error] [pid 7816] [client 162.243.33.6:53590] AH01215: ^, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:17.707826 2018] [cgi:error] [pid 7816] [client 162.243.33.6:53590] AH01215: SyntaxError, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:17.707845 2018] [cgi:error] [pid 7816] [client 162.243.33.6:53590] AH01215: : , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:17.707876 2018] [cgi:error] [pid 7816] [client 162.243.33.6:53590] AH01215: invalid syntax, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:17.707894 2018] [cgi:error] [pid 7816] [client 162.243.33.6:53590] AH01215: , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:46:17.709714 2018] [cgi:error] [pid 7816] [client 162.243.33.6:53590] End of script output before headers: pull-master.cgi, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:58:36.254305 2018] [http:error] [pid 7818] [client 162.243.33.6:55949] AH02429: Response header name '<!--' contains invalid characters, aborting request, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:58:39.273830 2018] [http:error] [pid 7818] [client 162.243.33.6:55960] AH02429: Response header name '<!--' contains invalid characters, aborting request, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:59:50.240642 2018] [cgi:error] [pid 7816] [client 162.243.33.6:56183] AH01215: Traceback (most recent call last):, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:59:50.240768 2018] [cgi:error] [pid 7816] [client 162.243.33.6:56183] AH01215:   File "/home/website/buzzwords/cgi-bin/pull-master.cgi", line 5, in <module>, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:59:50.240812 2018] [cgi:error] [pid 7816] [client 162.243.33.6:56183] AH01215:     , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:59:50.240841 2018] [cgi:error] [pid 7816] [client 162.243.33.6:56183] AH01215: import git , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:59:50.240886 2018] [cgi:error] [pid 7816] [client 162.243.33.6:56183] AH01215: ImportError, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:59:50.240908 2018] [cgi:error] [pid 7816] [client 162.243.33.6:56183] AH01215: : , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:59:50.240944 2018] [cgi:error] [pid 7816] [client 162.243.33.6:56183] AH01215: No module named git, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:59:50.240962 2018] [cgi:error] [pid 7816] [client 162.243.33.6:56183] AH01215: , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:59:50.243970 2018] [cgi:error] [pid 7816] [client 162.243.33.6:56183] End of script output before headers: pull-master.cgi, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:59:53.008527 2018] [cgi:error] [pid 7815] [client 162.243.33.6:56192] AH01215: Traceback (most recent call last):, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:59:53.008645 2018] [cgi:error] [pid 7815] [client 162.243.33.6:56192] AH01215:   File "/home/website/buzzwords/cgi-bin/pull-master.cgi", line 5, in <module>, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:59:53.008688 2018] [cgi:error] [pid 7815] [client 162.243.33.6:56192] AH01215:     , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:59:53.008748 2018] [cgi:error] [pid 7815] [client 162.243.33.6:56192] AH01215: import git , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:59:53.008795 2018] [cgi:error] [pid 7815] [client 162.243.33.6:56192] AH01215: ImportError, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:59:53.008818 2018] [cgi:error] [pid 7815] [client 162.243.33.6:56192] AH01215: : , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:59:53.008853 2018] [cgi:error] [pid 7815] [client 162.243.33.6:56192] AH01215: No module named git, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:59:53.008871 2018] [cgi:error] [pid 7815] [client 162.243.33.6:56192] AH01215: , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 15:59:53.011777 2018] [cgi:error] [pid 7815] [client 162.243.33.6:56192] End of script output before headers: pull-master.cgi, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:02:50.831336 2018] [cgi:error] [pid 7945] [client 162.243.33.6:56703] AH01215: error: cannot open .git/FETCH_HEAD: Permission denied, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:02:50.831387 2018] [cgi:error] [pid 7945] [client 162.243.33.6:56703] AH01215: , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:04:43.956723 2018] [cgi:error] [pid 7814] [client 162.243.33.6:57031] AH01215: error: cannot open .git/FETCH_HEAD: Permission denied, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:04:43.956774 2018] [cgi:error] [pid 7814] [client 162.243.33.6:57031] AH01215: , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:05:43.527952 2018] [cgi:error] [pid 7814] [client 162.243.33.6:57203] AH01215: error: cannot open .git/FETCH_HEAD: Permission denied, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:05:43.527993 2018] [cgi:error] [pid 7814] [client 162.243.33.6:57203] AH01215: , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:06:45.280124 2018] [cgi:error] [pid 7817] [client 162.243.33.6:57397] AH01215: (13)Permission denied: exec of '/home/website/buzzwords/cgi-bin/pull-master.cgi' failed, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:06:45.280676 2018] [cgi:error] [pid 7817] [client 162.243.33.6:57397] End of script output before headers: pull-master.cgi, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:06:49.037755 2018] [cgi:error] [pid 7816] [client 162.243.33.6:57409] AH01215: (13)Permission denied: exec of '/home/website/buzzwords/cgi-bin/pull-master.cgi' failed, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:06:49.038365 2018] [cgi:error] [pid 7816] [client 162.243.33.6:57409] End of script output before headers: pull-master.cgi, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:08:00.684721 2018] [cgi:error] [pid 7945] [client 162.243.33.6:57642] AH01215: error: cannot open .git/FETCH_HEAD: Permission denied, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:08:00.684761 2018] [cgi:error] [pid 7945] [client 162.243.33.6:57642] AH01215: , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:08:16.681827 2018] [cgi:error] [pid 7818] [client 162.243.33.6:57692] AH01215: error: cannot open .git/FETCH_HEAD: Permission denied, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:08:16.681875 2018] [cgi:error] [pid 7818] [client 162.243.33.6:57692] AH01215: , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:08:18.715928 2018] [cgi:error] [pid 7814] [client 162.243.33.6:57699] AH01215: error: cannot open .git/FETCH_HEAD: Permission denied, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:08:18.715977 2018] [cgi:error] [pid 7814] [client 162.243.33.6:57699] AH01215: , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:10:23.044975 2018] [cgi:error] [pid 7815] [client 162.243.33.6:58083] AH01215: (13)Permission denied: exec of '/home/website/buzzwords/cgi-bin/pull-master.cgi' failed, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:10:23.045583 2018] [cgi:error] [pid 7815] [client 162.243.33.6:58083] End of script output before headers: pull-master.cgi, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:10:25.962110 2018] [cgi:error] [pid 7815] [client 162.243.33.6:58094] AH01215: (13)Permission denied: exec of '/home/website/buzzwords/cgi-bin/pull-master.cgi' failed, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:10:25.962700 2018] [cgi:error] [pid 7815] [client 162.243.33.6:58094] End of script output before headers: pull-master.cgi, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:10:37.306390 2018] [cgi:error] [pid 7814] [client 162.243.33.6:58130] AH01215: Traceback (most recent call last):, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:10:37.306522 2018] [cgi:error] [pid 7814] [client 162.243.33.6:58130] AH01215:   File "/home/website/buzzwords/cgi-bin/pull-master.cgi", line 8, in <module>, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:10:37.306583 2018] [cgi:error] [pid 7814] [client 162.243.33.6:58130] AH01215:     , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:10:37.306643 2018] [cgi:error] [pid 7814] [client 162.243.33.6:58130] AH01215: logging.basicConfig(filename='error.log',level=logging.DEBUG), referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:10:37.306724 2018] [cgi:error] [pid 7814] [client 162.243.33.6:58130] AH01215:   File "/usr/lib/python2.7/logging/__init__.py", line 1540, in basicConfig, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:10:37.307003 2018] [cgi:error] [pid 7814] [client 162.243.33.6:58130] AH01215:     , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:10:37.307047 2018] [cgi:error] [pid 7814] [client 162.243.33.6:58130] AH01215: hdlr = FileHandler(filename, mode), referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:10:37.307123 2018] [cgi:error] [pid 7814] [client 162.243.33.6:58130] AH01215:   File "/usr/lib/python2.7/logging/__init__.py", line 911, in __init__, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:10:37.307296 2018] [cgi:error] [pid 7814] [client 162.243.33.6:58130] AH01215:     , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:10:37.307344 2018] [cgi:error] [pid 7814] [client 162.243.33.6:58130] AH01215: StreamHandler.__init__(self, self._open()), referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:10:37.307417 2018] [cgi:error] [pid 7814] [client 162.243.33.6:58130] AH01215:   File "/usr/lib/python2.7/logging/__init__.py", line 936, in _open, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:10:37.307620 2018] [cgi:error] [pid 7814] [client 162.243.33.6:58130] AH01215:     , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:10:37.307688 2018] [cgi:error] [pid 7814] [client 162.243.33.6:58130] AH01215: stream = open(self.baseFilename, self.mode), referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:10:37.307738 2018] [cgi:error] [pid 7814] [client 162.243.33.6:58130] AH01215: IOError, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:10:37.307798 2018] [cgi:error] [pid 7814] [client 162.243.33.6:58130] AH01215: : , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:10:37.307873 2018] [cgi:error] [pid 7814] [client 162.243.33.6:58130] AH01215: [Errno 13] Permission denied: '/home/website/buzzwords/cgi-bin/error.log', referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:10:37.307892 2018] [cgi:error] [pid 7814] [client 162.243.33.6:58130] AH01215: , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:10:37.310931 2018] [cgi:error] [pid 7814] [client 162.243.33.6:58130] End of script output before headers: pull-master.cgi, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:11:10.401014 2018] [cgi:error] [pid 7945] [client 162.243.33.6:58229] AH01215: Traceback (most recent call last):, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:11:10.401135 2018] [cgi:error] [pid 7945] [client 162.243.33.6:58229] AH01215:   File "/home/website/buzzwords/cgi-bin/pull-master.cgi", line 8, in <module>, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:11:10.401178 2018] [cgi:error] [pid 7945] [client 162.243.33.6:58229] AH01215:     , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:11:10.401241 2018] [cgi:error] [pid 7945] [client 162.243.33.6:58229] AH01215: logging.basicConfig(filename='error.log',level=logging.DEBUG), referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:11:10.401324 2018] [cgi:error] [pid 7945] [client 162.243.33.6:58229] AH01215:   File "/usr/lib/python2.7/logging/__init__.py", line 1540, in basicConfig, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:11:10.401607 2018] [cgi:error] [pid 7945] [client 162.243.33.6:58229] AH01215:     , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:11:10.401651 2018] [cgi:error] [pid 7945] [client 162.243.33.6:58229] AH01215: hdlr = FileHandler(filename, mode), referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:11:10.401729 2018] [cgi:error] [pid 7945] [client 162.243.33.6:58229] AH01215:   File "/usr/lib/python2.7/logging/__init__.py", line 911, in __init__, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:11:10.401921 2018] [cgi:error] [pid 7945] [client 162.243.33.6:58229] AH01215:     , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:11:10.401970 2018] [cgi:error] [pid 7945] [client 162.243.33.6:58229] AH01215: StreamHandler.__init__(self, self._open()), referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:11:10.402045 2018] [cgi:error] [pid 7945] [client 162.243.33.6:58229] AH01215:   File "/usr/lib/python2.7/logging/__init__.py", line 936, in _open, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:11:10.402222 2018] [cgi:error] [pid 7945] [client 162.243.33.6:58229] AH01215:     , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:11:10.402272 2018] [cgi:error] [pid 7945] [client 162.243.33.6:58229] AH01215: stream = open(self.baseFilename, self.mode), referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:11:10.402311 2018] [cgi:error] [pid 7945] [client 162.243.33.6:58229] AH01215: IOError, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:11:10.402344 2018] [cgi:error] [pid 7945] [client 162.243.33.6:58229] AH01215: : , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:11:10.402418 2018] [cgi:error] [pid 7945] [client 162.243.33.6:58229] AH01215: [Errno 13] Permission denied: '/home/website/buzzwords/cgi-bin/error.log', referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:11:10.402437 2018] [cgi:error] [pid 7945] [client 162.243.33.6:58229] AH01215: , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:11:10.405507 2018] [cgi:error] [pid 7945] [client 162.243.33.6:58229] End of script output before headers: pull-master.cgi, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:11:11.868913 2018] [cgi:error] [pid 7817] [client 162.243.33.6:58236] AH01215: Traceback (most recent call last):, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:11:11.869035 2018] [cgi:error] [pid 7817] [client 162.243.33.6:58236] AH01215:   File "/home/website/buzzwords/cgi-bin/pull-master.cgi", line 8, in <module>, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:11:11.869080 2018] [cgi:error] [pid 7817] [client 162.243.33.6:58236] AH01215:     , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:11:11.869142 2018] [cgi:error] [pid 7817] [client 162.243.33.6:58236] AH01215: logging.basicConfig(filename='error.log',level=logging.DEBUG), referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:11:11.869225 2018] [cgi:error] [pid 7817] [client 162.243.33.6:58236] AH01215:   File "/usr/lib/python2.7/logging/__init__.py", line 1540, in basicConfig, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:11:11.869501 2018] [cgi:error] [pid 7817] [client 162.243.33.6:58236] AH01215:     , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:11:11.869546 2018] [cgi:error] [pid 7817] [client 162.243.33.6:58236] AH01215: hdlr = FileHandler(filename, mode), referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:11:11.869624 2018] [cgi:error] [pid 7817] [client 162.243.33.6:58236] AH01215:   File "/usr/lib/python2.7/logging/__init__.py", line 911, in __init__, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:11:11.869797 2018] [cgi:error] [pid 7817] [client 162.243.33.6:58236] AH01215:     , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:11:11.869847 2018] [cgi:error] [pid 7817] [client 162.243.33.6:58236] AH01215: StreamHandler.__init__(self, self._open()), referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:11:11.869923 2018] [cgi:error] [pid 7817] [client 162.243.33.6:58236] AH01215:   File "/usr/lib/python2.7/logging/__init__.py", line 936, in _open, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:11:11.870097 2018] [cgi:error] [pid 7817] [client 162.243.33.6:58236] AH01215:     , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:11:11.870148 2018] [cgi:error] [pid 7817] [client 162.243.33.6:58236] AH01215: stream = open(self.baseFilename, self.mode), referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:11:11.870188 2018] [cgi:error] [pid 7817] [client 162.243.33.6:58236] AH01215: IOError, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:11:11.870223 2018] [cgi:error] [pid 7817] [client 162.243.33.6:58236] AH01215: : , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:11:11.870313 2018] [cgi:error] [pid 7817] [client 162.243.33.6:58236] AH01215: [Errno 13] Permission denied: '/home/website/buzzwords/cgi-bin/error.log', referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:11:11.870334 2018] [cgi:error] [pid 7817] [client 162.243.33.6:58236] AH01215: , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:11:11.873486 2018] [cgi:error] [pid 7817] [client 162.243.33.6:58236] End of script output before headers: pull-master.cgi, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:11:48.477322 2018] [cgi:error] [pid 7816] [client 162.243.33.6:58347] AH01215: Traceback (most recent call last):, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:11:48.477443 2018] [cgi:error] [pid 7816] [client 162.243.33.6:58347] AH01215:   File "/home/website/buzzwords/cgi-bin/pull-master.cgi", line 8, in <module>, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:11:48.477488 2018] [cgi:error] [pid 7816] [client 162.243.33.6:58347] AH01215:     , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:11:48.477547 2018] [cgi:error] [pid 7816] [client 162.243.33.6:58347] AH01215: logging.basicConfig(filename='error.log',level=logging.DEBUG), referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:11:48.477627 2018] [cgi:error] [pid 7816] [client 162.243.33.6:58347] AH01215:   File "/usr/lib/python2.7/logging/__init__.py", line 1540, in basicConfig, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:11:48.477902 2018] [cgi:error] [pid 7816] [client 162.243.33.6:58347] AH01215:     , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:11:48.477945 2018] [cgi:error] [pid 7816] [client 162.243.33.6:58347] AH01215: hdlr = FileHandler(filename, mode), referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:11:48.478020 2018] [cgi:error] [pid 7816] [client 162.243.33.6:58347] AH01215:   File "/usr/lib/python2.7/logging/__init__.py", line 911, in __init__, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:11:48.478193 2018] [cgi:error] [pid 7816] [client 162.243.33.6:58347] AH01215:     , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:11:48.478240 2018] [cgi:error] [pid 7816] [client 162.243.33.6:58347] AH01215: StreamHandler.__init__(self, self._open()), referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:11:48.478313 2018] [cgi:error] [pid 7816] [client 162.243.33.6:58347] AH01215:   File "/usr/lib/python2.7/logging/__init__.py", line 936, in _open, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:11:48.478487 2018] [cgi:error] [pid 7816] [client 162.243.33.6:58347] AH01215:     , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:11:48.478534 2018] [cgi:error] [pid 7816] [client 162.243.33.6:58347] AH01215: stream = open(self.baseFilename, self.mode), referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:11:48.478574 2018] [cgi:error] [pid 7816] [client 162.243.33.6:58347] AH01215: IOError, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:11:48.478608 2018] [cgi:error] [pid 7816] [client 162.243.33.6:58347] AH01215: : , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:11:48.478679 2018] [cgi:error] [pid 7816] [client 162.243.33.6:58347] AH01215: [Errno 13] Permission denied: '/home/website/buzzwords/cgi-bin/error.log', referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:11:48.478698 2018] [cgi:error] [pid 7816] [client 162.243.33.6:58347] AH01215: , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:11:48.481863 2018] [cgi:error] [pid 7816] [client 162.243.33.6:58347] End of script output before headers: pull-master.cgi, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:11:50.036907 2018] [cgi:error] [pid 7945] [client 162.243.33.6:58369] AH01215: Traceback (most recent call last):, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:11:50.037026 2018] [cgi:error] [pid 7945] [client 162.243.33.6:58369] AH01215:   File "/home/website/buzzwords/cgi-bin/pull-master.cgi", line 8, in <module>, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:11:50.037070 2018] [cgi:error] [pid 7945] [client 162.243.33.6:58369] AH01215:     , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:11:50.037149 2018] [cgi:error] [pid 7945] [client 162.243.33.6:58369] AH01215: logging.basicConfig(filename='error.log',level=logging.DEBUG), referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:11:50.037231 2018] [cgi:error] [pid 7945] [client 162.243.33.6:58369] AH01215:   File "/usr/lib/python2.7/logging/__init__.py", line 1540, in basicConfig, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:11:50.037510 2018] [cgi:error] [pid 7945] [client 162.243.33.6:58369] AH01215:     , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:11:50.037554 2018] [cgi:error] [pid 7945] [client 162.243.33.6:58369] AH01215: hdlr = FileHandler(filename, mode), referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:11:50.037630 2018] [cgi:error] [pid 7945] [client 162.243.33.6:58369] AH01215:   File "/usr/lib/python2.7/logging/__init__.py", line 911, in __init__, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:11:50.037804 2018] [cgi:error] [pid 7945] [client 162.243.33.6:58369] AH01215:     , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:11:50.037852 2018] [cgi:error] [pid 7945] [client 162.243.33.6:58369] AH01215: StreamHandler.__init__(self, self._open()), referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:11:50.037925 2018] [cgi:error] [pid 7945] [client 162.243.33.6:58369] AH01215:   File "/usr/lib/python2.7/logging/__init__.py", line 936, in _open, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:11:50.038102 2018] [cgi:error] [pid 7945] [client 162.243.33.6:58369] AH01215:     , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:11:50.038151 2018] [cgi:error] [pid 7945] [client 162.243.33.6:58369] AH01215: stream = open(self.baseFilename, self.mode), referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:11:50.038190 2018] [cgi:error] [pid 7945] [client 162.243.33.6:58369] AH01215: IOError, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:11:50.038223 2018] [cgi:error] [pid 7945] [client 162.243.33.6:58369] AH01215: : , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:11:50.038296 2018] [cgi:error] [pid 7945] [client 162.243.33.6:58369] AH01215: [Errno 13] Permission denied: '/home/website/buzzwords/cgi-bin/error.log', referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:11:50.038314 2018] [cgi:error] [pid 7945] [client 162.243.33.6:58369] AH01215: , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:11:50.041315 2018] [cgi:error] [pid 7945] [client 162.243.33.6:58369] End of script output before headers: pull-master.cgi, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:11:59.407095 2018] [cgi:error] [pid 7815] [client 162.243.33.6:58444] AH01215: error: cannot open .git/FETCH_HEAD: Permission denied, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:11:59.407147 2018] [cgi:error] [pid 7815] [client 162.243.33.6:58444] AH01215: , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:12:01.732545 2018] [cgi:error] [pid 7814] [client 162.243.33.6:58459] AH01215: error: cannot open .git/FETCH_HEAD: Permission denied, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:12:01.732589 2018] [cgi:error] [pid 7814] [client 162.243.33.6:58459] AH01215: , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:12:49.365347 2018] [cgi:error] [pid 7815] [client 162.243.33.6:58658] AH01215: error: cannot open .git/FETCH_HEAD: Permission denied, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:12:49.365397 2018] [cgi:error] [pid 7815] [client 162.243.33.6:58658] AH01215: , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:16:34.576135 2018] [cgi:error] [pid 7814] [client 162.243.33.6:59555] AH01215: (13)Permission denied: exec of '/home/website/buzzwords/cgi-bin/pull-master.cgi' failed, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:16:34.576681 2018] [cgi:error] [pid 7814] [client 162.243.33.6:59555] End of script output before headers: pull-master.cgi, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:16:37.114800 2018] [cgi:error] [pid 7818] [client 162.243.33.6:59567] AH01215: (13)Permission denied: exec of '/home/website/buzzwords/cgi-bin/pull-master.cgi' failed, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:16:37.115630 2018] [cgi:error] [pid 7818] [client 162.243.33.6:59567] End of script output before headers: pull-master.cgi, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:16:48.372263 2018] [cgi:error] [pid 7815] [client 162.243.33.6:59614] AH01215: error: cannot open .git/FETCH_HEAD: Permission denied, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:16:48.372303 2018] [cgi:error] [pid 7815] [client 162.243.33.6:59614] AH01215: , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:16:48.374614 2018] [cgi:error] [pid 7815] [client 162.243.33.6:59614] AH01215: fatal: Unable to create '/home/website/buzzwords/.git/index.lock': Permission denied, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:16:48.396437 2018] [cgi:error] [pid 7815] [client 162.243.33.6:59614] AH01215: error: cannot open .git/FETCH_HEAD: Permission denied, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:16:48.396460 2018] [cgi:error] [pid 7815] [client 162.243.33.6:59614] AH01215: , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:16:52.279960 2018] [cgi:error] [pid 7815] [client 162.243.33.6:59631] AH01215: error: cannot open .git/FETCH_HEAD: Permission denied, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:16:52.280005 2018] [cgi:error] [pid 7815] [client 162.243.33.6:59631] AH01215: , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:16:52.282803 2018] [cgi:error] [pid 7815] [client 162.243.33.6:59631] AH01215: fatal: Unable to create '/home/website/buzzwords/.git/index.lock': Permission denied, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:16:52.305660 2018] [cgi:error] [pid 7815] [client 162.243.33.6:59631] AH01215: error: cannot open .git/FETCH_HEAD: Permission denied, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:16:52.305682 2018] [cgi:error] [pid 7815] [client 162.243.33.6:59631] AH01215: , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:17:25.835891 2018] [cgi:error] [pid 7945] [client 162.243.33.6:59751] AH01215: error: cannot open .git/FETCH_HEAD: Permission denied, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:17:25.835939 2018] [cgi:error] [pid 7945] [client 162.243.33.6:59751] AH01215: , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:17:25.838686 2018] [cgi:error] [pid 7945] [client 162.243.33.6:59751] AH01215: fatal: Unable to create '/home/website/buzzwords/.git/index.lock': Permission denied, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:17:25.861412 2018] [cgi:error] [pid 7945] [client 162.243.33.6:59751] AH01215: error: cannot open .git/FETCH_HEAD: Permission denied, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:17:25.861442 2018] [cgi:error] [pid 7945] [client 162.243.33.6:59751] AH01215: , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:23:54.036054 2018] [cgi:error] [pid 7815] [client 162.243.33.6:33506] AH01215: (13)Permission denied: exec of '/home/website/buzzwords/cgi-bin/pull-master.cgi' failed, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:23:54.036611 2018] [cgi:error] [pid 7815] [client 162.243.33.6:33506] End of script output before headers: pull-master.cgi, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:24:13.396868 2018] [cgi:error] [pid 7814] [client 162.243.33.6:33577] AH01215: error: cannot open .git/FETCH_HEAD: Permission denied, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:24:13.396908 2018] [cgi:error] [pid 7814] [client 162.243.33.6:33577] AH01215: , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:24:13.401093 2018] [cgi:error] [pid 7814] [client 162.243.33.6:33577] AH01215: fatal: Unable to create '/home/website/buzzwords/.git/index.lock': Permission denied, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:24:13.423090 2018] [cgi:error] [pid 7814] [client 162.243.33.6:33577] AH01215: error: cannot open .git/FETCH_HEAD: Permission denied, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:24:13.423119 2018] [cgi:error] [pid 7814] [client 162.243.33.6:33577] AH01215: , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:24:18.776087 2018] [cgi:error] [pid 7816] [client 162.243.33.6:33604] AH01215: error: cannot open .git/FETCH_HEAD: Permission denied, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:24:18.776139 2018] [cgi:error] [pid 7816] [client 162.243.33.6:33604] AH01215: , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:24:18.778723 2018] [cgi:error] [pid 7816] [client 162.243.33.6:33604] AH01215: fatal: Unable to create '/home/website/buzzwords/.git/index.lock': Permission denied, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:24:18.801173 2018] [cgi:error] [pid 7816] [client 162.243.33.6:33604] AH01215: error: cannot open .git/FETCH_HEAD: Permission denied, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:24:18.801206 2018] [cgi:error] [pid 7816] [client 162.243.33.6:33604] AH01215: , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:25:27.484519 2018] [cgi:error] [pid 7945] [client 162.243.33.6:33888] AH01215: error: cannot open .git/FETCH_HEAD: Permission denied, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:25:27.484559 2018] [cgi:error] [pid 7945] [client 162.243.33.6:33888] AH01215: , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:25:27.487156 2018] [cgi:error] [pid 7945] [client 162.243.33.6:33888] AH01215: fatal: Unable to create '/home/website/buzzwords/.git/index.lock': Permission denied, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:25:27.509740 2018] [cgi:error] [pid 7945] [client 162.243.33.6:33888] AH01215: error: cannot open .git/FETCH_HEAD: Permission denied, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:25:27.509768 2018] [cgi:error] [pid 7945] [client 162.243.33.6:33888] AH01215: , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:29:27.898923 2018] [cgi:error] [pid 7816] [client 162.243.33.6:34609] AH01215: error: cannot open .git/FETCH_HEAD: Permission denied, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:29:27.898972 2018] [cgi:error] [pid 7816] [client 162.243.33.6:34609] AH01215: , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:29:27.908708 2018] [cgi:error] [pid 7816] [client 162.243.33.6:34609] AH01215: git: 'reset --hard origin/master' is not a git command. See 'git --help'., referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:29:27.908747 2018] [cgi:error] [pid 7816] [client 162.243.33.6:34609] AH01215: , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:29:27.930714 2018] [cgi:error] [pid 7816] [client 162.243.33.6:34609] AH01215: error: cannot open .git/FETCH_HEAD: Permission denied, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:29:27.930738 2018] [cgi:error] [pid 7816] [client 162.243.33.6:34609] AH01215: , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:29:29.651749 2018] [cgi:error] [pid 7945] [client 162.243.33.6:34613] AH01215: error: cannot open .git/FETCH_HEAD: Permission denied, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:29:29.651805 2018] [cgi:error] [pid 7945] [client 162.243.33.6:34613] AH01215: , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:29:29.658046 2018] [cgi:error] [pid 7945] [client 162.243.33.6:34613] AH01215: git: 'reset --hard origin/master' is not a git command. See 'git --help'., referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:29:29.658080 2018] [cgi:error] [pid 7945] [client 162.243.33.6:34613] AH01215: , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:29:29.679626 2018] [cgi:error] [pid 7945] [client 162.243.33.6:34613] AH01215: error: cannot open .git/FETCH_HEAD: Permission denied, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:29:29.679648 2018] [cgi:error] [pid 7945] [client 162.243.33.6:34613] AH01215: , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:30:46.868401 2018] [cgi:error] [pid 7816] [client 162.243.33.6:34852] AH01215: error: cannot open .git/FETCH_HEAD: Permission denied, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:30:46.868444 2018] [cgi:error] [pid 7816] [client 162.243.33.6:34852] AH01215: , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:30:46.875170 2018] [cgi:error] [pid 7816] [client 162.243.33.6:34852] AH01215: git: 'reset --hard origin/master' is not a git command. See 'git --help'., referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:30:46.875240 2018] [cgi:error] [pid 7816] [client 162.243.33.6:34852] AH01215: , referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:30:46.898872 2018] [cgi:error] [pid 7816] [client 162.243.33.6:34852] AH01215: error: cannot open .git/FETCH_HEAD: Permission denied, referer: https://gersh.in/buzzwords/
+[Mon Jul 23 16:30:46.898907 2018] [cgi:error] [pid 7816] [client 162.243.33.6:34852] AH01215: , referer: https://gersh.in/buzzwords/
