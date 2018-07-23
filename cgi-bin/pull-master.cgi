@@ -12,6 +12,9 @@ try:
     info = form.getvalue("method")
     if(info == 'pull'):
        info = "PULLING FROM MASTER.."
+       cmd = subprocess.Popen(["git", "status"], stdout=subprocess.PIPE)
+       git = cmd.communicate()[0]
+       logging.info("Status: " + str(git))
        process = subprocess.Popen(["git", "fetch", "--all"], stdout=subprocess.PIPE)
        process = subprocess.Popen(["git", "reset", "--hard", "origin/master"], stdout=subprocess.PIPE)
        process = subprocess.Popen(["git", "pull", "origin", "master"], stdout=subprocess.PIPE)
@@ -23,5 +26,5 @@ except Exception as e:
 print("Content-Type: text/html")
 print
 print("<html><body>Hello")
-print(info)
+print(output)
 print("</body></html>")
