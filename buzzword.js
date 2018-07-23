@@ -13,12 +13,9 @@ function processPull()  {
   // only if req shows "loaded"
   if (xhr.readyState == 4) {
 
-    if (xhr.status == 200) {
+    if (xhr.status == 200 || xhr.status == 404 || xhr.status == 500) {
       var response = xhr.responseText;
 	  console.log(response)
-    } 
-    else {
-      console.log(xhr)
     }
   }
 }
