@@ -12,6 +12,8 @@ try:
     info = form.getvalue("method")
     if(info == 'pull'):
        info = "PULLING FROM MASTER.."
+       process = subprocess.Popen(["git", "fetch", "--all"], stdout=subprocess.PIPE)
+       process = subprocess.Popen(["git", "reset", "--hard", "origin/master"], stdout=subprocess.PIPE)
        process = subprocess.Popen(["git", "pull", "origin", "master"], stdout=subprocess.PIPE)
        output = process.communicate()[0]
        logging.info("Pulled from master: " + str(output))
