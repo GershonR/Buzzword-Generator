@@ -4,9 +4,6 @@ import sys
 import logging
 import subprocess
 
-
-print("Content-Type: text/html")
-
 logging.basicConfig(filename='error.log',level=logging.DEBUG)
 info = ""
 output = ""
@@ -34,7 +31,7 @@ try:
        print("HTTP/1.1 404 Not Found\n")
        result = "Parameter Not Recognized"
 except Exception as e:
-	logging.info("POST ERROR: " + str(e))
+    logging.info("POST ERROR: " + str(e))
     print("HTTP/1.1 500 Internal Server Error\n")
     result = "Error happend in the Python script"
 
