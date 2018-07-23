@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<script>
+	function buzzword() {
+		var words = [
+			'Machine-learning',
+			'AI',
+			'Computer Vision',
+			'Distributed',
+			'Load Balanced',
+			'SEO',
+			'Big Data',
+			'Blockchain',
+			'Scalability',
+			'Concurrency',
+			'Algorithm',
+			'Virtualization',
+			'Engine',
+			'Cloud Computing',
+			'VR',
+			'Crowdfunding',
+			'Startup',
+			'Growth Hacking',
+			'DevOps',
+			'Backend',
+			'Full-Stack',
+			'Caching',
+			'Cryptocurrency',
+			'Mobile',
+			'Architecture',
+			'Socket',
+			'Stream',
+			'CGI',
+			'Riley',
+			'Agile',
+			'GUI',
+			'Centralized',
+			'Principle',
+			'Technique',
+			'Refactoring',
+			'Singleton',
+			'Decision Tree',
+			'Legacy',
+			'Computational',
+			'Complexity',
+			'Analysis',
+			'Amortized',
+			'Intersection',
+			'Proof',
+			'IDE',
+			'Software'
+			
+			
+		];
+		var index = document.getElementById("list");
+		var picked = index.options[index.selectedIndex].value;
+		var target = document.getElementById('target');
+		target.innerText = "";
+		var x;
+		for(x = 0; x < picked; x++) {
+			var random = words[Math.floor(Math.random() * words.length)];
+			target.innerText += " " + random;
+		}
+     }
+	 </script>
+  <head>
+    <meta charset="utf-8">
+    <title>Gershon's Buzzwords</title>
+  </head>
+  <body>
+    <header>
+		<div style="margin:auto; text-align:center;">
+			<h1>Welcome To The Epic BuzzWord Generator</h1>
+		</div>
+    </header>
+	<div style="margin:auto; text-align:center;">
+		<span id="target"></span>
+	</div>
+	<p></p>
+	<div style="margin:auto; text-align:center;">
+		<button id="button" onclick="buzzword()">Give me a Buzzword!</button>
+		<select id="list">
+				<option value="1">1</option>
+				<option value="2" selected="selected">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				<option value="6">I'm a Psychopath</option>
+		</select>
+	</div>
+
+  </body>
+</html>
