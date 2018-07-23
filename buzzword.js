@@ -5,7 +5,6 @@ function pullMaster() {
 	xhr.open("POST", "cgi-bin/pull-master.cgi");
 	xhr.setRequestHeader('Content-Type','application/x-www-form-urlencoded; charset=UTF-8')
 	xhr.send('method=pull');
-	console.log(xhr);
 }
 
 
