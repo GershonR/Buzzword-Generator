@@ -5,17 +5,12 @@ import logging
 import subprocess
 
 logging.basicConfig(filename='error.log',level=logging.DEBUG)
-info = ""
 output = ""
 result = ""
 try:
     form = cgi.FieldStorage()
-    info = form.getvalue("method")
-    if(info == 'pull'):
-       info = "PULLING FROM MASTER.."
-       cmd = subprocess.Popen(["git", "status"], stdout=subprocess.PIPE)
-       git = cmd.communicate()[0]
-       logging.info("Status: " + str(git))
+    value = form.getvalue("method")
+    if(value == 'pull'):
        process = subprocess.Popen(["git", "fetch", "--all"], stdout=subprocess.PIPE)
        output = process.communicate()[0]
        logging.info("Fetched: " + str(output))
