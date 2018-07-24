@@ -2,8 +2,7 @@
 <html>
 	<script src="buzzword.js"></script>
 	<script>
-	function buzzword() {
-		var words = [
+	var words = [
 			'Machine-learning',
 			'AI',
 			'Computer Vision',
@@ -50,9 +49,42 @@
 			'Proof',
 			'IDE',
 			'Software'
-			
-			
-		];
+	];
+	var decline_job_intros = [
+			'Thank you for the offer ',
+			'I regret to inform ',
+			'I dont really want to work for '
+	];
+	var decline_job_finisher = [
+		' , but I took another position.',
+		' , but you guys suck!',
+		' , I will own you one day.',
+		' NOW GET OUT OF MY SIGHT!'
+	];
+	var company_names = [
+		'Downfeet',
+		'Lava-.-ly'
+	];
+	var finisher = [
+		'Industries',
+		'Limited',
+		'Incorporated',
+		'Family',
+		'Team',
+		'Software',
+		'Architecture',
+		'Blockchain',
+		'Cryptocurrency',
+		'Quest',
+		'Networking',
+		'Source',
+		'Squared',
+		'Things',
+		'Stuff',
+		'Redacted',
+		'Solutions'
+	];
+	function buzzword() {
 		var index = document.getElementById("list");
 		var picked = index.options[index.selectedIndex].value;
 		var target = document.getElementById('target');
@@ -62,8 +94,38 @@
 			var random = words[Math.floor(Math.random() * words.length)];
 			target.innerText += " " + random;
 		}
-     }
-	 </script>
+    	}
+	function decline_job(){
+		var index = document.getElementById("decline_job_list");
+		var picked = index.options[index.selectedIndex].value;
+		var target = document.getElementById("decline_job_target");
+		target.innerText = "";
+		
+		var random = decline_job_intros[Math.floor(Math.random() * words.length)];
+		target.innerText += " " + random;
+		random = company_names[Math.floor(Math.random() * words.length)];
+		target.innerText += " " + random;
+		random = decline_job_finisher[Math.floor(Math.random() * words.length)];
+		target.innerText += " " + random;
+		
+	}
+	function company_name(){
+		var index = document.getElementById("company_name_list");
+		var picked = index.options[index.selectedIndex].value;
+		var target = document.getElementById("company_name_target");
+		target.innerText = "";
+		var x;
+		/* if company name has more than 1 word add a finisher */
+		for(x = 0; x < picked-1; x++) {
+			var random = words[Math.floor(Math.random() * words.length)];
+			target.innerText += " " + random;
+		}
+		if(picked>1){
+			var random = finisher[Math.floor(Math.random() * finisher.length)];
+			target.innerText += " " + random;
+		}
+	}
+	</script>
   <head>
     <meta charset="utf-8">
     <title>Gershon's Buzzwords</title>
@@ -90,6 +152,30 @@
 		</select>
 	</div>
 	<p></p>
+	<div style="margin:auto; text-align:center;">
+		<span id="phrase_target"></span>
+	</div>
+	<p></p>
+	<div style="margin:auto; text-align:center;">
+		<button id="decline_job_button" onclick="decline_job()>Help me decline my co-op job offer!</button>
+		<select id="decline_job_list">
+				<option value="1" selected="selected">decline</option>
+		</select>
+	</div>
+	<p></p>
+	<div style="margin:auto; text-align:center;">
+		<span id="company_name_target"></span>
+	</div>
+	<p></p>
+	<div style="margin:auto; text-align:center;">
+		<button id="company_name_button" onclick="company_name()>Name my startup!</button>
+		<select id="company_name_list">
+				<option value="1">1 word</option>
+				<option value="2" selected="selected">2 words</option>
+				<option value="3">3 words</option>
+				<option value="4">4 words</option>
+		</select>
+	</div>					    
 	<p></p>
 	<div style="margin:auto; text-align:center;">
 			<button id="button" onclick="pullMaster()">Pull Master</button>
