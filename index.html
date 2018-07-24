@@ -96,9 +96,9 @@
 		}
     	}
 	function decline_job(){
-		var index = document.getElementById("decline_job_list");
+		var index = document.getElementById('decline_job_list');
 		var picked = index.options[index.selectedIndex].value;
-		var target = document.getElementById("decline_job_target");
+		var target = document.getElementById('decline_job_target');
 		target.innerText = "";
 		
 		var random = decline_job_intros[Math.floor(Math.random() * words.length)];
@@ -151,6 +151,7 @@
 				<option value="6">I'm a Psychopath</option>
 		</select>
 	</div>
+	  
 	<p></p>
 	<div style="margin:auto; text-align:center;">
 		<span id="decline_job_target"></span>
@@ -158,10 +159,12 @@
 	<p></p>
 	<div style="margin:auto; text-align:center;">
 		<button id="decline_job_button" onclick="decline_job()>Help me decline my co-op job offer!</button>
-		<select id="list">
+		<select id="decline_job_list">
 				<option value="1" selected="selected">decline</option>
+				<option value="2">????????</option>
 		</select>
 	</div>
+						 
 	<p></p>
 	<div style="margin:auto; text-align:center;">
 		<span id="company_name_target"></span>
