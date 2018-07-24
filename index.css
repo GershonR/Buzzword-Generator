@@ -1,1 +1,8 @@
-
+div.bg {
+  background: url(dog.jpg);
+}
+div.box {
+  margin: 100px;
+  background: #ffffff;
+  opacity: 0.6;		
+}
