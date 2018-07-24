@@ -32,6 +32,4 @@ except Exception as e:
 print("Content-Type: text/text")
 print
 print(result)
-print("Content-Type: text/text")
-print
 print("Success")
