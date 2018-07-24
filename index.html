@@ -129,59 +129,73 @@
   <head>
 	<meta charset="utf-8">
 	<title>Gershon's Buzzwords</title>
+	<style>
+		div.bg {
+			background: url(dog.jpg);
+		}
+		div.box {
+			margin: 100px;
+			background: #ffffff;
+			opacity: 0.6;
+		}
+	</style>
   </head>
-  <body background="dog.jpg">
+  <body>
     <header>
 		<div style="margin:auto; text-align:center;">
 			<h1>Welcome To The Epic BuzzWord Generator</h1>
 		</div>
     </header>
-	<div style="margin:auto; text-align:center;">
-		<span id="target"></span>
-	</div>
-	<p></p>
-	<div style="margin:auto; text-align:center;">
-		<button id="button" onclick="buzzword()">Give me a Buzzword!</button>
-		<select id="list">
-				<option value="1">1</option>
-				<option value="2" selected="selected">2</option>
-				<option value="3">3</option>
-				<option value="4">4</option>
-				<option value="5">5</option>
-				<option value="6">I'm a Psychopath</option>
-		</select>
-	</div>
-	  
-	<p></p>
-	<div style="margin:auto; text-align:center;">
-		<span id="decline_job_target"></span>
-	</div>
-	<p></p>
-	<div style="margin:auto; text-align:center;">
-		<button id="decline_job_button" onclick="decline_job()">Help me decline my co-op job offer!</button>
-		<select id="decline_job_list">
-				<option value="1" selected="selected">decline</option>
-				<option value="2">????????</option>
-		</select>
-	</div>
-						 
-	<p></p>
-	<div style="margin:auto; text-align:center;">
-		<span id="company_name_target"></span>
-	</div>
-	<p></p>
-	<div style="margin:auto; text-align:center;">
-		<button id="company_name_button" onclick="company_name()">Name my startup!</button>
-		<select id="company_name_list">
-				<option value="1">1 word</option>
-				<option value="2" selected="selected">2 words</option>
-				<option value="3">3 words</option>
-				<option value="4">4 words</option>
-		</select>
-	</div>					    
-	<p></p>
-	<div style="margin:auto; text-align:center;">
-			<button id="button" onclick="pullMaster()">Pull Master</button>
-	</div>
+	<div class="bg">
+		<div class="box">
+			<div style="margin:auto; text-align:center;">
+				<span id="target"></span>
+			</div>
+			<p></p>
+			<div style="margin:auto; text-align:center;">
+				<button id="button" onclick="buzzword()">Give me a Buzzword!</button>
+				<select id="list">
+						<option value="1">1</option>
+						<option value="2" selected="selected">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+						<option value="6">I'm a Psychopath</option>
+				</select>
+			</div>
+
+			<p></p>
+			<div style="margin:auto; text-align:center;">
+				<span id="decline_job_target"></span>
+			</div>
+			<p></p>
+			<div style="margin:auto; text-align:center;">
+				<button id="decline_job_button" onclick="decline_job()">Help me decline my co-op job offer!</button>
+				<select id="decline_job_list">
+						<option value="1" selected="selected">decline</option>
+						<option value="2">????????</option>
+				</select>
+			</div>
+
+			<p></p>
+			<div style="margin:auto; text-align:center;">
+				<span id="company_name_target"></span>
+			</div>
+			<p></p>
+			<div style="margin:auto; text-align:center;">
+				<button id="company_name_button" onclick="company_name()">Name my startup!</button>
+				<select id="company_name_list">
+						<option value="1">1 word</option>
+						<option value="2" selected="selected">2 words</option>
+						<option value="3">3 words</option>
+						<option value="4">4 words</option>
+				</select>
+			</div>					    
+			<p></p>
+			<div style="margin:auto; text-align:center;">
+					<button id="button" onclick="pullMaster()">Pull Master</button>
+			</div>
+	  	</div>
+	  </div>
   </body>
 </html>
