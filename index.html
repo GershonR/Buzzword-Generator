@@ -101,11 +101,11 @@
 		var target = document.getElementById('decline_job_target');
 		target.innerText = "";
 		
-		var random = decline_job_intros[Math.floor(Math.random() * words.length)];
+		var random = decline_job_intros[Math.floor(Math.random() * decline_job_intros.length)];
 		target.innerText += " " + random;
-		random = company_names[Math.floor(Math.random() * words.length)];
+		random = company_names[Math.floor(Math.random() * company_names.length)];
 		target.innerText += " " + random;
-		random = decline_job_finisher[Math.floor(Math.random() * words.length)];
+		random = decline_job_finisher[Math.floor(Math.random() * decline_job_funisher.length)];
 		target.innerText += " " + random;
 		
 	}
