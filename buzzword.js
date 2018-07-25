@@ -24,7 +24,7 @@ function getContributers() {
 	xhr.onreadystatechange = processContributers;
 	xhr.open("POST", "cgi-bin/get-contributers.cgi");
 	xhr.setRequestHeader('Content-Type','application/x-www-form-urlencoded; charset=UTF-8')
-	xhr.send();
+	xhr.send(null);
 }
 
 function processContributers()  {
