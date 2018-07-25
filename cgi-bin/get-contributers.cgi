@@ -9,7 +9,7 @@ output = ""
 try:
     form = cgi.FieldStorage()
     value = form.getvalue("method")
-    process = subprocess.Popen(["git", "shortlog -s -n"], stdout=subprocess.PIPE)
+    process = subprocess.Popen(["git", "shortlog"], stdout=subprocess.PIPE)
     output = process.communicate()[0]
     logging.info("Contributers: " + str(output))
 except Exception as e:
