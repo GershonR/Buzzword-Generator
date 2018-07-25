@@ -8,7 +8,7 @@ logging.basicConfig(filename='error.log',level=logging.DEBUG)
 output = ""
 try:
     process = subprocess.Popen(["git", "shortlog", "-s", "-n"], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-    output, err  = str(process.communicate())
+    output, err  = process.communicate()
     logging.info("Contributers: " + str(output))
     logging.info("Error Contributers: " + str(err))
 except Exception as e:
@@ -17,5 +17,5 @@ except Exception as e:
 
 print("Content-Type: text/html")
 print
-print("Contributers: " + output)
-print(err)
+print("Contributers: " + str(output))
+print(str(err))
