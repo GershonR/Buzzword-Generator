@@ -7,10 +7,9 @@ import subprocess
 logging.basicConfig(filename='error.log',level=logging.DEBUG)
 output = ""
 try:
-    process = subprocess.Popen(["git", "shortlog", "-s", "-n"], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-    output, err  = process.communicate()
+    process = subprocess.Popen(["git", "shortlog", "-s", "-n"], stdout=subprocess.PIPE)
+    output = proc.stdout.readline()
     logging.info("Contributers: " + str(output))
-    logging.info("Error Contributers: " + str(err))
 except Exception as e:
     logging.info("POST ERROR: " + str(e))
     output = "Error happened in the Python script"
@@ -18,4 +17,3 @@ except Exception as e:
 print("Content-Type: text/html")
 print
 print("Contributers: " + str(output))
-print(str(err))
