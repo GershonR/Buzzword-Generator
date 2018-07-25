@@ -27,7 +27,7 @@ try:
 except Exception as e:
     logging.info("POST ERROR: " + str(e))
     print("Status: 500 Internal Server Error\n")
-    result = "Error happend in the Python script"
+    result = "Error happened in the Python script: " + str(e)
 
 print("Content-Type: text/text")
 print
