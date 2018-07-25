@@ -2,15 +2,12 @@
 
 import sys
 import logging
-import subprocess
+from subprocess import check_output
 
 logging.basicConfig(filename='error.log',level=logging.DEBUG)
 output = ""
 try:
-    process = subprocess.Popen(["/usr/bin/git", "shortlog", "-s", "-n"], stdout=subprocess.PIPE)
-    sys.stdout.flush()
-    output = process.stdout.readlines()
-    sys.stdout.flush()
+    output = check_output(["/usr/bin/git", "shortlog", "-s", "-n"])
     logging.info("Contributers: " + str(output))
 	
 except Exception as e:
