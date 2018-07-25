@@ -2,7 +2,9 @@
 <html>
 	<script src="buzzword.js"></script>
 	<script>
-	window.onload = getContributers;
+	(function () {
+		getContributers();
+	})();
 	var words = [
 			'Machine-learning',
 			'AI',
