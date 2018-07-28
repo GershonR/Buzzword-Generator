@@ -14,6 +14,6 @@ except Exception as e:
     logging.info("POST ERROR: " + str(e))
     output = "Error happened in the Python script"
 
-print("Content-Type: text/html")
+print("Content-Type: text/text")
 print
 print("Contributers: " + str(output))
