@@ -16,4 +16,4 @@ except Exception as e:
 
 print("Content-Type: text/text")
 print
-print("Contributers: " + str(output))
+print("Contributers: " + output)
