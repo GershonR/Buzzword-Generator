@@ -31,4 +31,4 @@ except Exception as e:
 
 print("Content-Type: text/text")
 print
-print(result+ " SUCCESS")
+print(result+ " SUCCES")
