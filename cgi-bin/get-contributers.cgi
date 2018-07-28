@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-
+import cgi
 import sys
 import logging
 from subprocess import check_output
