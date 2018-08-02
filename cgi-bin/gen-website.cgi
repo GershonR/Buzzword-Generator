@@ -19,12 +19,5 @@ import webbrowser
 
 print "Content-type: text/html"
 print
-print '<html>'
-print ' <head>'
-print '  <title> Get redirected bro </title>'
-print ' </head>'
-print ' <body>'
-print '  yeee boiiiii'
-print ' </body>'
-print '</html>'
+print 'Hello world'
 #print "<html><body>this is the startup. Going to make it gen website from what's generated on main page ok?</body></html>"
