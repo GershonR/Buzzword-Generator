@@ -19,10 +19,19 @@ function processPull()  {
   }
 }
 
+//Can we change this to jQuery?
 function getContributers() {
 	xhr = new XMLHttpRequest();
 	xhr.onreadystatechange = processContributers;
 	xhr.open("POST", "cgi-bin/get-contributers.cgi");
+	xhr.setRequestHeader('Content-Type','application/x-www-form-urlencoded; charset=UTF-8')
+	xhr.send(null);
+}
+
+function genWebsite() {
+  xhr = new XMLHttpRequest();
+	xhr.onreadystatechange = processContributers;
+	xhr.open("POST", "cgi-bin/gen-website.cgi");
 	xhr.setRequestHeader('Content-Type','application/x-www-form-urlencoded; charset=UTF-8')
 	xhr.send(null);
 }
@@ -37,4 +46,6 @@ function processContributers()  {
     }
   }
 }
+
+
 
