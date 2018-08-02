@@ -9,8 +9,6 @@ import webbrowser
 #Other script will be maybe php
 #Try to install framework to build startup sites?
 #shut the fuck up eric
-dirurl = "/?r=1234"
-
 
 #webbrowser.get('firefox').open_new_tab('http://www.google.com')
 #Opens URL in Firefox browser
@@ -20,11 +18,9 @@ dirurl = "/?r=1234"
 
 
 print "Content-type: text/html"
-print 'Location: %s' % dirurl
 print
 print '<html>'
 print ' <head>'
-print '  <meta http-equiv="refresh" content="0;url=%s" />' % dirurl
 print '  <title> Get redirected bro </title>'
 print ' </head>'
 print ' <body>'
